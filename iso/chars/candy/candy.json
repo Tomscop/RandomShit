@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "candy idle"
+		},
+		{
+			"offsets": [
+				96,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "candy left"
+		},
+		{
+			"offsets": [
+				7,
+				-114
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "candy down"
+		},
+		{
+			"offsets": [
+				100,
+				66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "candy up"
+		},
+		{
+			"offsets": [
+				40,
+				-39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "candy right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/candy",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "candy",
+	"flip_x": false,
+	"healthbar_colors": [
+		57,
+		70,
+		156
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

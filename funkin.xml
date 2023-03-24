@@ -35,6 +35,7 @@
 			<!-- Stage assets -->
 			<dir name = "stage">
 				<file name = "hud0.tim" type = "data" source = "iso/stage/hud0.tim"/>
+				<file name = "hud0ourp.tim" type = "data" source = "iso/stage/hud0ourp.tim"/>
 				<file name = "hud1-1.tim" type = "data" source = "iso/stage/hud1-1.tim"/>
 				<file name = "count.tim" type = "data" source = "iso/stage/count.tim"/>
 			</dir>
@@ -67,6 +68,9 @@
 				
 				<!-- Dad assets -->
 				<file name = "dad.arc" type = "data" source = "iso/chars/dad/main.arc"/>
+				
+				<!-- Candy assets -->
+				<file name = "candy.arc" type = "data" source = "iso/chars/candy/main.arc"/>
 
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/chars/gf/main.arc"/>

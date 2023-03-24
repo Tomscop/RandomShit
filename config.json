@@ -26,11 +26,11 @@
 			"hname"   : "Right"
 		}
 	],
-	"input":  "iso/chars/eeee/eeee",
-	"outdir": "iso/chars/eeee/",
-	"charname" : "Eeee",
+	"input":  "iso/chars/candy/candy",
+	"outdir": "iso/chars/candy/",
+	"charname" : "Candy",
 	"optimize" : false,
-	"optimizename" : "eeee",
+	"optimizename" : "candy",
 	"arcname" : "ArcMain",
 	"vrampos" : [
 		768, 

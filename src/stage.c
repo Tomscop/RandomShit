@@ -52,6 +52,7 @@ static u32 Sounds[10];
 
 #include "character/bf.h"
 #include "character/dad.h"
+#include "character/candy.h"
 #include "character/gf.h"
 
 #include "stage/dummy.h"
@@ -1525,7 +1526,10 @@ void Stage_Load(StageId id, StageDiff difficulty, boolean story)
 	stage.story = story;
 	
 	//Load HUD textures
-	Gfx_LoadTex(&stage.tex_hud0, IO_Read("\\STAGE\\HUD0.TIM;1"), GFX_LOADTEX_FREE);
+	if ((stage.stage_id >= StageId_BiteVreen) && (stage.stage_id <= StageId_MidnightVloo))
+		Gfx_LoadTex(&stage.tex_hud0, IO_Read("\\STAGE\\HUD0OURP.TIM;1"), GFX_LOADTEX_FREE);
+	else
+		Gfx_LoadTex(&stage.tex_hud0, IO_Read("\\STAGE\\HUD0.TIM;1"), GFX_LOADTEX_FREE);
 	
 	if (stage.stage_id != StageId_Temp)
 		Gfx_LoadTex(&stage.tex_hud1, IO_Read("\\STAGE\\HUD1-1.TIM;1"), GFX_LOADTEX_FREE);
@@ -1829,10 +1833,11 @@ void Stage_Tick(void)
 			//^ makes step show on screen
 			
 			//Draw white fade
-			if (stage.stage_id == StageId_Temp) //PLACEHOLDER
+			if (stage.stage_id == StageId_BiteVreen)
 			{
+				if ((stage.song_step == 1024) || (stage.song_step == 2032))
 				fade = FIXED_DEC(255,1);
-				fadespd = FIXED_DEC(175,1);
+				fadespd = FIXED_DEC(512,1);
 			}
 			if (stage.prefs.flash != 0)
 				if (fade > 0)
@@ -2361,6 +2366,19 @@ void Stage_Tick(void)
 			{
 				if (stage.stage_id == StageId_Temp) //PLACEHOLDER
 					stage.player_state[0].character = Stage_ChangeChars(stage.player_state[1].character, stage.player2);
+			}
+			
+			//Bite Vreen Note Move thing
+			if ((stage.stage_id == StageId_BiteVreen) && (stage.song_step == 2016))
+			{
+				note_x[0] = FIXED_DEC(-128,1) + FIXED_DEC(screen.SCREEN_WIDEADD,4);
+				note_x[1] = FIXED_DEC(-70,1) + FIXED_DEC(screen.SCREEN_WIDEADD,4); //+34
+				note_x[2] = FIXED_DEC(70,1) + FIXED_DEC(screen.SCREEN_WIDEADD,4);
+				note_x[3] = FIXED_DEC(128,1) + FIXED_DEC(screen.SCREEN_WIDEADD,4);
+				note_x[4] = FIXED_DEC(1000,1);
+				note_x[5] = FIXED_DEC(1000,1);
+				note_x[6] = FIXED_DEC(1000,1);
+				note_x[7] = FIXED_DEC(1000,1);
 			}
 			break;
 		}

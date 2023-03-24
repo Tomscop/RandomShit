@@ -4,11 +4,13 @@ all: \
 	iso/icon16.tim \
 	iso/font/font.tim \
 	iso/stage/hud0.tim \
+	iso/stage/hud0ourp.tim \
 	iso/stage/hud1-1.tim \
 	iso/stage/count.tim \
 	iso/chars/bf/main.arc \
 	iso/chars/bf/dead.tim \
 	iso/chars/dad/main.arc \
+	iso/chars/candy/main.arc \
 	iso/chars/gf/main.arc \
 	iso/chars/gf/tut.arc \
 	iso/chars/gf/speaker.tim \
@@ -28,6 +30,9 @@ iso/chars/bf/main.arc: iso/chars/bf/bf0.tim iso/chars/bf/bf1.tim iso/chars/bf/bf
 
 # Dad
 iso/chars/dad/main.arc: iso/chars/dad/idle0.tim iso/chars/dad/idle1.tim iso/chars/dad/left.tim iso/chars/dad/down.tim iso/chars/dad/up.tim iso/chars/dad/right.tim
+
+# Candy
+iso/chars/candy/main.arc: iso/chars/candy/idle0.tim iso/chars/candy/left0.tim iso/chars/candy/left1.tim iso/chars/candy/down0.tim iso/chars/candy/up0.tim iso/chars/candy/up1.tim iso/chars/candy/right0.tim iso/chars/candy/right1.tim 
 
 # GF
 iso/chars/gf/main.arc: iso/chars/gf/gf0.tim iso/chars/gf/gf1.tim iso/chars/gf/gf2.tim
