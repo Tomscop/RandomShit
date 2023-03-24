@@ -43,6 +43,20 @@
 			<dir name = "week1">
 				<file name = "1.1n.cht" type = "data" source = "iso/music/bite-vreen/bite-hard.json.cht"/>
 				<file name = "1.2n.cht" type = "data" source = "iso/music/restless-vreen/restless-hard.json.cht"/>
+				<file name = "1.3n.cht" type = "data" source = "iso/music/unlikely-rivals-vloo/unlikely-rivals-hard.json.cht"/>
+				<file name = "1.4n.cht" type = "data" source = "iso/music/bite-vloo/bite-hard.json.cht"/>
+				<file name = "1.5n.cht" type = "data" source = "iso/music/guy-vloo/guy-hard.json.cht"/>
+				<file name = "1.6n.cht" type = "data" source = "iso/music/midnight-vloo/midnight-hard.json.cht"/>
+				<file name = "1.7n.cht" type = "data" source = "iso/music/amusia-lullaby/amusia-hard.json.cht"/>
+				<file name = "1.8n.cht" type = "data" source = "iso/music/death-toll-lullaby/death-toll-hard.json.cht"/>
+				<file name = "1.9n.cht" type = "data" source = "iso/music/shitno-lullaby/shitno-hard.json.cht"/>
+				<file name = "1.10n.cht" type = "data" source = "iso/music/brimstone-lullaby/brimstone-hard.json.cht"/>
+				<file name = "1.11n.cht" type = "data" source = "iso/music/yield-mf/yield-hard.json.cht"/>
+				<file name = "1.12n.cht" type = "data" source = "iso/music/checksum-mf/checksum-hard.json.cht"/>
+				<file name = "1.13n.cht" type = "data" source = "iso/music/dissonance-mf/dissonance-hard.json.cht"/>
+				<file name = "1.14n.cht" type = "data" source = "iso/music/pick-up-mf/pick-up-hard.json.cht"/>
+				<file name = "1.15n.cht" type = "data" source = "iso/music/dakota-mf/dakota-hard.json.cht"/>
+				<file name = "1.16n.cht" type = "data" source = "iso/music/warforged-mf/warforged-hard.json.cht"/>
 			</dir>
 		
 			<!-- Character assets -->
@@ -93,6 +107,20 @@
 				<file name = "menu.xa" type = "xa" source = "iso/music/menu.xa"/>
 				<dummy sectors="128"/>
 				<file name = "1.xa" type = "xa" source = "iso/music/1.xa"/>
+				<dummy sectors="128"/>
+				<file name = "2.xa" type = "xa" source = "iso/music/2.xa"/>
+				<dummy sectors="128"/>
+				<file name = "3.xa" type = "xa" source = "iso/music/3.xa"/>
+				<dummy sectors="128"/>
+				<file name = "4.xa" type = "xa" source = "iso/music/4.xa"/>
+				<dummy sectors="128"/>
+				<file name = "5.xa" type = "xa" source = "iso/music/5.xa"/>
+				<dummy sectors="128"/>
+				<file name = "6.xa" type = "xa" source = "iso/music/6.xa"/>
+				<dummy sectors="128"/>
+				<file name = "7.xa" type = "xa" source = "iso/music/7.xa"/>
+				<dummy sectors="128"/>
+				<file name = "8.xa" type = "xa" source = "iso/music/8.xa"/>
 				<dummy sectors="128"/>
 			</dir>
 			

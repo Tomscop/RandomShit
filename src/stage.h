@@ -46,6 +46,20 @@ typedef enum
 {
 	StageId_BiteVreen, //Bite Vreen
 	StageId_RestlessVreen, //Restless Vreen
+	StageId_UnlikelyRivalsVloo, //Unlikely Rivals Vloo
+	StageId_BiteVloo, //Bite Vloo
+	StageId_GuyVloo, //Guy Vloo
+	StageId_MidnightVloo, //Midnight Vloo
+	StageId_AmusiaLullaby, //Bite Lullaby
+	StageId_DeathTollLullaby, //Restless Lullaby
+	StageId_ShitnoLullaby, //Bite Lullaby
+	StageId_BrimstoneLullaby, //Restless Lullaby
+	StageId_YieldMF, //Bite MF
+	StageId_ChecksumMF, //Restless MF
+	StageId_DissonanceMF, //Bite MF
+	StageId_PickUpMF, //Restless MF
+	StageId_DakotaMF, //Bite MF
+	StageId_WarforgedMF, //Restless MF
 	
 	StageId_Temp, //Placeholder
 	

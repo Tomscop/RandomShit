@@ -1,0 +1,4 @@
+1 xa dakota-mf/Vocals.xa 1 0
+1 xa dakota-mf/Inst.xa 1 1
+1 xa warforged-mf/Vocals.xa 1 2
+1 xa warforged-mf/Inst.xa 1 3

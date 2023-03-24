@@ -14,6 +14,13 @@ typedef enum
 {
 	XA_Menu,   //MENU.XA
 	XA_1, //1.XA
+	XA_2, //2.XA
+	XA_3, //3.XA
+	XA_4, //4.XA
+	XA_5, //5.XA
+	XA_6, //6.XA
+	XA_7, //7.XA
+	XA_8, //8.XA
 	
 	XA_Max,
 } XA_File;
@@ -26,6 +33,27 @@ typedef enum
 	//1.XA
 	XA_BiteVreen, //Bite Vreen
 	XA_RestlessVreen,   //Restless Vreen
+	//2.XA
+	XA_UnlikelyRivalsVloo, //Unlikely Rivals Vloo
+	XA_BiteVloo,   //Bite Vloo
+	//3.XA
+	XA_GuyVloo, //Guy Vloo
+	XA_MidnightVloo,   //Midnight Vloo
+	//4.XA
+	XA_AmusiaLullaby, //Amusia Lullaby
+	XA_DeathTollLullaby,   //Death Toll Lullaby
+	//5.XA
+	XA_ShitnoLullaby, //Shitno Lullaby
+	XA_BrimstoneLullaby,   //Brimstone Lullaby
+	//6.XA
+	XA_YieldMF, //Yield MF
+	XA_ChecksumMF,   //Checksum MF
+	//7.XA
+	XA_DissonanceMF, //Dissonance MF
+	XA_PickUpMF,   //Pick Up MF
+	//8.XA
+	XA_DakotaMF, //Dakota MF
+	XA_WarforgedMF,   //Warforged MF
 	
 	XA_TrackMax,
 } XA_Track;

@@ -1,6 +1,13 @@
 all: \
   iso/music/menu.xa \
-  iso/music/1.xa
+  iso/music/1.xa \
+  iso/music/2.xa \
+  iso/music/3.xa \
+  iso/music/4.xa \
+  iso/music/5.xa \
+  iso/music/6.xa \
+  iso/music/7.xa \
+  iso/music/8.xa 
 
 # XA converts
 iso/music/%.xa: iso/music/%.ogg
@@ -11,3 +18,10 @@ iso/music/%.xa:
 # XA interleaves
 iso/music/menu.xa: iso/music/freaky.xa iso/music/gameover.xa
 iso/music/1.xa: iso/music/bite-vreen/Inst.xa iso/music/bite-vreen/Vocals.xa iso/music/restless-vreen/Inst.xa iso/music/restless-vreen/Vocals.xa
+iso/music/2.xa: iso/music/unlikely-rivals-vloo/Inst.xa iso/music/unlikely-rivals-vloo/Vocals.xa iso/music/bite-vloo/Inst.xa iso/music/bite-vloo/Vocals.xa
+iso/music/3.xa: iso/music/guy-vloo/Inst.xa iso/music/guy-vloo/Vocals.xa iso/music/midnight-vloo/Inst.xa iso/music/midnight-vloo/Vocals.xa
+iso/music/4.xa: iso/music/amusia-lullaby/Inst.xa iso/music/amusia-lullaby/Vocals.xa iso/music/death-toll-lullaby/Inst.xa iso/music/death-toll-lullaby/Vocals.xa
+iso/music/5.xa: iso/music/shitno-lullaby/Inst.xa iso/music/shitno-lullaby/Vocals.xa iso/music/brimstone-lullaby/Inst.xa iso/music/brimstone-lullaby/Vocals.xa
+iso/music/6.xa: iso/music/yield-mf/Inst.xa iso/music/yield-mf/Vocals.xa iso/music/checksum-mf/Inst.xa iso/music/checksum-mf/Vocals.xa
+iso/music/7.xa: iso/music/dissonance-mf/Inst.xa iso/music/dissonance-mf/Vocals.xa iso/music/pick-up-mf/Inst.xa iso/music/pick-up-mf/Vocals.xa
+iso/music/8.xa: iso/music/dakota-mf/Inst.xa iso/music/dakota-mf/Vocals.xa iso/music/warforged-mf/Inst.xa iso/music/warforged-mf/Vocals.xa

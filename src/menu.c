@@ -705,6 +705,20 @@ void Menu_Tick(void)
 			} menu_options[] = {
 				{StageId_BiteVreen, 0xFF9271FD, "BITE VREEN"},
 				{StageId_RestlessVreen, 0xFF9271FD, "RESTLESS VREEN"},
+				{StageId_UnlikelyRivalsVloo, 0xFF9271FD, "UNLIKELY RIVALS VLOO"},
+				{StageId_BiteVloo, 0xFF9271FD, "BITE VLOO"},
+				{StageId_GuyVloo, 0xFF9271FD, "GUY VLOO"},
+				{StageId_MidnightVloo, 0xFF9271FD, "MIDNIGHT VLOO"},
+				{StageId_AmusiaLullaby, 0xFF9271FD, "AMUSIA LULLABY"},
+				{StageId_DeathTollLullaby, 0xFF9271FD, "DEATH TOLL LULLABY"},
+				{StageId_ShitnoLullaby, 0xFF9271FD, "SHITNO LULLABY"},
+				{StageId_BrimstoneLullaby, 0xFF9271FD, "BRIMSTONE LULLABY"},
+				{StageId_YieldMF, 0xFF9271FD, "YIELD MF"},
+				{StageId_ChecksumMF, 0xFF9271FD, "CHECKSUM MF"},
+				{StageId_DissonanceMF, 0xFF9271FD, "DISSONANCE MF"},
+				{StageId_PickUpMF, 0xFF9271FD, "PICK UP MF"},
+				{StageId_DakotaMF, 0xFF9271FD, "DAKOTA MF"},
+				{StageId_WarforgedMF, 0xFF9271FD, "WARFORGED MF"},
 			};
 
 			menu.font_arial.draw(&menu.font_arial,

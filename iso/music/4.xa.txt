@@ -1,0 +1,4 @@
+1 xa amusia-lullaby/Vocals.xa 1 0
+1 xa amusia-lullaby/Inst.xa 1 1
+1 xa death-toll-lullaby/Vocals.xa 1 2
+1 xa death-toll-lullaby/Inst.xa 1 3

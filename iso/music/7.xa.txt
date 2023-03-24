@@ -1,0 +1,4 @@
+1 xa dissonance-mf/Vocals.xa 1 0
+1 xa dissonance-mf/Inst.xa 1 1
+1 xa pick-up-mf/Vocals.xa 1 2
+1 xa pick-up-mf/Inst.xa 1 3
