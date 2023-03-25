@@ -2,35 +2,35 @@
 	"animations": [
 		{
 			"fnfanim" : "idle",
-			"imgname" : "idle",
-			"hname"   : "Idle"
+			"imgname" : "idlep",
+			"hname"   : "IdleP"
 		},
 		{
 			"fnfanim" : "singLEFT",
-			"imgname" : "left",
-			"hname"   : "Left"
+			"imgname" : "leftp",
+			"hname"   : "LeftP"
 		},
 		{
 			"fnfanim" : "singDOWN",
-			"imgname" : "down",
-			"hname"   : "Down"
+			"imgname" : "downp",
+			"hname"   : "DownP"
 		},
 		{
 			"fnfanim" : "singUP",
-			"imgname" : "up",
-			"hname"   : "Up"
+			"imgname" : "upp",
+			"hname"   : "UpP"
 		},
 		{
 			"fnfanim" : "singRIGHT",
-			"imgname" : "right",
-			"hname"   : "Right"
+			"imgname" : "rightp",
+			"hname"   : "RightP"
 		}
 	],
-	"input":  "iso/chars/candy/candy",
-	"outdir": "iso/chars/candy/",
-	"charname" : "Candy",
+	"input":  "iso/chars/candypen/penguin",
+	"outdir": "iso/chars/candypen/",
+	"charname" : "CandyPenguin",
 	"optimize" : false,
-	"optimizename" : "candy",
+	"optimizename" : "candypenguin",
 	"arcname" : "ArcMain",
 	"vrampos" : [
 		768, 

@@ -52,7 +52,7 @@ static u32 Sounds[10];
 
 #include "character/bf.h"
 #include "character/dad.h"
-#include "character/candy.h"
+#include "character/candypenguin.h"
 #include "character/gf.h"
 
 #include "stage/dummy.h"

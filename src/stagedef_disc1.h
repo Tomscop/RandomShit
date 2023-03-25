@@ -2,7 +2,7 @@
 		//Characters
 		{Char_BF_New,    FIXED_DEC(-54,1),  FIXED_DEC(100,1)},
         {NULL},
-		{Char_Candy_New, FIXED_DEC(188,1),  FIXED_DEC(108,1)},
+		{Char_CandyPenguin_New, FIXED_DEC(188,1),  FIXED_DEC(108,1)},
         {NULL},
 		{NULL},
 		

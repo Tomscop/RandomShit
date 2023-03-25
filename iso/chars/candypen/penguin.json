@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "penguin idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				43,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "penguin left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				36,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "penguin down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				-23
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "penguin right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "penguin up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/penguin",
+	"position": [
+		0,
+		260
+	],
+	"healthicon": "penguin",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-20,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

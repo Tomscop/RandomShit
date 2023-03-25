@@ -4,12 +4,12 @@
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
 */
 
-#ifndef PSXF_GUARD_CANDY_H
-#define PSXF_GUARD_CANDY_H
+#ifndef PSXF_GUARD_CANDYPENGUIN_H
+#define PSXF_GUARD_CANDYPENGUIN_H
 
 #include "../character.h"
 
-//Candy character functions
-Character *Char_Candy_New(fixed_t x, fixed_t y);
+//Candy Penguin character functions
+Character *Char_CandyPenguin_New(fixed_t x, fixed_t y);
 
 #endif

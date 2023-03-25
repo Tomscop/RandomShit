@@ -69,8 +69,8 @@
 				<!-- Dad assets -->
 				<file name = "dad.arc" type = "data" source = "iso/chars/dad/main.arc"/>
 				
-				<!-- Candy assets -->
-				<file name = "candy.arc" type = "data" source = "iso/chars/candy/main.arc"/>
+				<!-- Candy Penguin assets -->
+				<file name = "candypen.arc" type = "data" source = "iso/chars/candypen/main.arc"/>
 
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/chars/gf/main.arc"/>
