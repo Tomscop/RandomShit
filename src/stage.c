@@ -53,6 +53,7 @@ static u32 Sounds[10];
 #include "character/bf.h"
 #include "character/dad.h"
 #include "character/candypenguin.h"
+#include "character/blank.h"
 #include "character/gf.h"
 
 #include "stage/dummy.h"
@@ -2362,10 +2363,10 @@ void Stage_Tick(void)
 			StageTimer_Tick();
 			
 			//Player 2 and Opponent 2 Switches
-			if (stage.stage_id == StageId_Temp) //PLACEHOLDER
+			if (stage.stage_id == StageId_BiteVreen)
 			{
-				if (stage.stage_id == StageId_Temp) //PLACEHOLDER
-					stage.player_state[0].character = Stage_ChangeChars(stage.player_state[1].character, stage.player2);
+				if (stage.song_step == 2030)
+					stage.player_state[1].character = Stage_ChangeChars(stage.player_state[1].character, stage.opponent2);
 			}
 			
 			//Bite Vreen Note Move thing

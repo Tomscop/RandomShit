@@ -11,6 +11,7 @@ all: \
 	iso/chars/bf/dead.tim \
 	iso/chars/dad/main.arc \
 	iso/chars/candypen/main.arc \
+	iso/chars/blank/main.arc \
 	iso/chars/gf/main.arc \
 	iso/chars/gf/tut.arc \
 	iso/chars/gf/speaker.tim \
@@ -33,6 +34,9 @@ iso/chars/dad/main.arc: iso/chars/dad/idle0.tim iso/chars/dad/idle1.tim iso/char
 
 # Candy Penguin
 iso/chars/candypen/main.arc: iso/chars/candypen/idle0.tim iso/chars/candypen/left0.tim iso/chars/candypen/left1.tim iso/chars/candypen/down0.tim iso/chars/candypen/up0.tim iso/chars/candypen/up1.tim iso/chars/candypen/right0.tim iso/chars/candypen/right1.tim iso/chars/candypen/idlep0.tim iso/chars/candypen/leftp0.tim iso/chars/candypen/downp0.tim iso/chars/candypen/upp0.tim iso/chars/candypen/rightp0.tim 
+
+# Blank
+iso/chars/blank/main.arc: iso/chars/blank/idle0.tim iso/chars/blank/idle1.tim iso/chars/blank/left0.tim iso/chars/blank/left1.tim iso/chars/blank/left2.tim iso/chars/blank/down0.tim iso/chars/blank/down1.tim iso/chars/blank/down2.tim iso/chars/blank/up0.tim iso/chars/blank/up1.tim iso/chars/blank/up2.tim iso/chars/blank/up3.tim iso/chars/blank/up4.tim iso/chars/blank/right0.tim iso/chars/blank/right1.tim iso/chars/blank/right2.tim 
 
 # GF
 iso/chars/gf/main.arc: iso/chars/gf/gf0.tim iso/chars/gf/gf1.tim iso/chars/gf/gf2.tim

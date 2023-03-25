@@ -71,6 +71,9 @@
 				
 				<!-- Candy Penguin assets -->
 				<file name = "candypen.arc" type = "data" source = "iso/chars/candypen/main.arc"/>
+				
+				<!-- Blank Penguin assets -->
+				<file name = "blank.arc" type = "data" source = "iso/chars/blank/main.arc"/>
 
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/chars/gf/main.arc"/>

@@ -2,45 +2,45 @@
 	"animations": [
 		{
 			"fnfanim" : "idle",
-			"imgname" : "idlep",
-			"hname"   : "IdleP"
+			"imgname" : "idle",
+			"hname"   : "Idle"
 		},
 		{
 			"fnfanim" : "singLEFT",
-			"imgname" : "leftp",
-			"hname"   : "LeftP"
+			"imgname" : "left",
+			"hname"   : "Left"
 		},
 		{
 			"fnfanim" : "singDOWN",
-			"imgname" : "downp",
-			"hname"   : "DownP"
+			"imgname" : "down",
+			"hname"   : "Down"
 		},
 		{
 			"fnfanim" : "singUP",
-			"imgname" : "upp",
-			"hname"   : "UpP"
+			"imgname" : "up",
+			"hname"   : "Up"
 		},
 		{
 			"fnfanim" : "singRIGHT",
-			"imgname" : "rightp",
-			"hname"   : "RightP"
+			"imgname" : "right",
+			"hname"   : "Right"
 		}
 	],
-	"input":  "iso/chars/candypen/penguin",
-	"outdir": "iso/chars/candypen/",
-	"charname" : "CandyPenguin",
+	"input":  "iso/chars/blank/blank",
+	"outdir": "iso/chars/blank/",
+	"charname" : "Blank",
 	"optimize" : false,
-	"optimizename" : "candypenguin",
+	"optimizename" : "blank",
 	"arcname" : "ArcMain",
 	"vrampos" : [
-		768, 
+		832, 
 		0, 
-		0, 
+		16, 
 		481
 	],
 
 	"bpp" : 4,
-	"resize" : 0.25,
+	"resize" : 0.22,
 	"xmlscale" : 1.0,
 	"padding" : 1,
 	"max_width" : 256,
